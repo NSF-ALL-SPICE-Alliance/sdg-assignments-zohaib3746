@@ -101,12 +101,12 @@ Although typos may not seem like a big deal, they definitely are in code! Let's 
 As you can see, the error message we got says that 'filepath_dat' was not found - this is because we have a typo. These can be tricky to find as it doesn't explicitly tell us that it was a spelling error. Let's correct our typo:
 
 ```{r}
-#print(filepath_data)
+# print(filepath_data)
 ```
 
 Looks great! 
 
-### Solutions and Resources **NOT DONE**
+### Solutions and Resources
 
 There are going to be different types of errors you might encounter that was not covered in this troubleshooting guide. Here are some tips to help you resolve them:
 
@@ -130,10 +130,8 @@ This code should have opened up the help page on the side. This contains what ar
 
 4. Resources
 
-After doing a Google search, you'll get a bunch of resources that you can look to. Here are some of our favorites:
+After doing a Google search, you'll get a bunch of resources that you can look to. Here are some recommendations:
 - [W3 Schools](https://www.w3schools.com/r/default.asp)
 - [Geeks for Geeks](https://www.geeksforgeeks.org/r-tutorial/?ref=outind)
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/r)
 - [R Bloggers](https://www.r-bloggers.com/2015/12/how-to-learn-r-2/)
-
-5. Reaching out to us! (setting up link for meeting, email, anonymous discussion board?)
