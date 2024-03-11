@@ -16,5 +16,7 @@ navbar:
       href: rmarkdowns/machine_learning.html
     - text: "Final Project Guide"
       href: rmarkdowns/final_project_guide.html
+    - text: "Troubleshooting Guide"
+      href: rmarkdowns/troubleshooting.html
 
     
