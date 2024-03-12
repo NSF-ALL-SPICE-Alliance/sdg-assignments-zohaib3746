@@ -60,7 +60,7 @@ We're going to be using the `ggplot()` frequently to graph our visualizations. g
 1. Specify the dataframe you would like to plot from 
 2. Aesthetics: decide what your x and y variables are, color schemes, size, etc.
   
-  - aethetics will always be columns in your dataframe
+  - aesthetics will always be columns in your dataframe
 
 3. Geometric objects/geoms: decide if you're graphing with points, lines, bars, etc.
 4. Statistical transformations/stats: think about if you want to include a smooth line, visualize regressions, etc.
@@ -143,7 +143,7 @@ Hmm... it looks like the country names are hard to read - there are too many of 
 
 ```{r}
 lac_sdr_data <- sdr_data %>% 
-  filter(regions_used_for_the_sdr == "LAC") # filtering for OECD countries only
+  filter(regions_used_for_the_sdr == "LAC") # filtering for LAC countries only
 ```
 
 Now let's make a bar chart from our new dataframe `lac_sdr_data`
