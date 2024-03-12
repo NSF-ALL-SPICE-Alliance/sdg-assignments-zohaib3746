@@ -30,6 +30,10 @@ One of the most helpful tools to an R programmer are R packages! In a nutshell, 
 library()
 ```
 
+```{r}
+library()
+```
+
 A new window should have opened up with a list of packages and a short description! 
 
 *Note*
@@ -291,7 +295,7 @@ Using the `select()` function, select two new SDG goal scores. Assign it to a va
 
 Similarly to select, `filter()` can be used to extract specific rows. Let's try this out by filtering our data for those within the Oceania region.
 
-In order to do this, the first argument filter takes is x, or the dataset, followed by the condition we are filtering for (in this case, we want to filter out all rows that fall under the Oceania region). We write out the column name "regions_used_for_the_sdr" followed by == and then "Oceania". 
+In order to do this, we write out the column name "regions_used_for_the_sdr" followed by == and then "Oceania". 
 
 
 ```{r}
