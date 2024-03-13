@@ -101,7 +101,7 @@ Although typos may not seem like a big deal, they definitely are in code! Let's 
 As you can see, the error message we got says that 'filepath_dat' was not found - this is because we have a typo. These can be tricky to find as it doesn't explicitly tell us that it was a spelling error. Let's correct our typo:
 
 ```{r}
-#print(filepath_data)
+# print(filepath_data)
 ```
 
 Looks great! 

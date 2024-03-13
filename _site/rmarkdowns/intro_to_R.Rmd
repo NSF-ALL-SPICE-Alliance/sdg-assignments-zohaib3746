@@ -293,7 +293,6 @@ Similarly to select, `filter()` can be used to extract specific rows. Let's try 
 
 In order to do this, we write out the column name "regions_used_for_the_sdr" followed by == and then "Oceania". 
 
-
 ```{r}
 sdr_data %>% 
   filter(regions_used_for_the_sdr == "Oceania")

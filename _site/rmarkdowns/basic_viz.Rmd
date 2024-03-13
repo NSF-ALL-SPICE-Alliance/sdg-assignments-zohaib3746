@@ -116,6 +116,7 @@ Let's create one more scatter plot!
 ggplot(data = sdr_data, aes(x= goal_3_score, y = goal_4_score, color = goal_5_score)) +
   geom_point()
 ```
+
 Cool! It seems that the darkest blue points (countries with the lowest SDG 5 scores) tend to have mid-range or low SDG 3 / SDG 4 scores as well. The lightest blue points (countries with the highest SDG 5 scores) tend to have high SDG 3 / SDG 4 scores as well. However, there are several countries that do not follow this trend.
 
 #### <span style="color: red;">Challenge 1</span>
@@ -214,4 +215,3 @@ Countries that fall in the higher end of the Goal 4 spectrum belong to the OECD 
 
 #### <span style="color: red;">Challenge 3</span>
 Make a histogram for a different SDG score. Then, fill by region. In a couple of sentences, describe any interesting trends or what you notice from your new histogram.
-
