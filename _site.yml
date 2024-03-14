@@ -22,8 +22,5 @@ navbar:
       href: rmarkdowns/final_project_guide.html
     - text: "Troubleshooting Guide"
       href: rmarkdowns/troubleshooting.html
-  right:
-    - icon: fa-github
-      href: https://github.com/NSF-ALL-SPICE-Alliance/SDG-Analytics-in-R
-      
+
     

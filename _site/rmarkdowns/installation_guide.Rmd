@@ -69,7 +69,9 @@ Make your github profile more personal by [creating a README file](https://docs.
 Here is [my github account](https://github.com/ConnorFlynn) for reference
 
 
-
+```{r, echo=FALSE}
+vembedr::embed_url("https://www.youtube.com/watch?v=0FAQHfm2dsw")
+```
 
 ### Check for / Install Git | Link R Studio & Github
 
