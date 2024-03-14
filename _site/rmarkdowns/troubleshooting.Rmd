@@ -7,11 +7,19 @@ output:
     toc: true
     toc_float: true
 ---
-<img src="`r here::here('logos/SpiceLogo1.png')`" width="240" /> <img src="`r here::here('logos/cifal_logo.png')`" width="200" />
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(vembedr)
 ```
+
+
+
+```{r, echo=FALSE}
+embed_url("https://www.youtube.com/watch?v=hEFO1U91DjY")
+```
+
 
 Welcome to the Troubleshooting Guide! If you run into errors as we code along during this course, don't get discouraged! Running into errors is something that all data scientists have in common, so let's go through some of the most common errors and helpful debugging resources.
 

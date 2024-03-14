@@ -4,6 +4,8 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Logistics"
+      href: README.md
     - text: "Installation Guide"
       href: rmarkdowns/installation_guide.html
     - text: "Intro to R"

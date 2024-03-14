@@ -18,7 +18,7 @@ output:
 
 ### Setup
 
-Loading in our Libraries
+
 
 
 ```{r setup, include=FALSE}
@@ -27,6 +27,13 @@ library(tidyverse)
 library(here)
 library(ggpubr)
 library(janitor)
+library(ggcorrplot)
+library(vembedr)
+```
+
+
+```{r, echo=FALSE}
+embed_url("https://www.youtube.com/watch?v=Gzgj73UQ__A")
 ```
 
 
@@ -153,7 +160,7 @@ Finally, we can plot the correlation coefficients with ggcorrplot!
 
 
 ```{r}
-ggcorrplot::ggcorrplot(cor, method = "circle", type = "lower", lab = TRUE, lab_size = 2) +
+ggcorrplot(cor, method = "circle", type = "lower", lab = TRUE, lab_size = 2) +
   theme(axis.text.y = element_text(size = 8),
   axis.text.x = element_text(size = 8))
 ```
@@ -199,7 +206,7 @@ ggplot(sdr_data, aes(x = goal_12_score,
 
 ```
 
-#### <span style="color: red;">Challenge 1</span>
+### <span style="color: red;">Challenge 1</span>
 
 - Edit the code chunk above to plot a linear regression of 2 different sdg scores 
 

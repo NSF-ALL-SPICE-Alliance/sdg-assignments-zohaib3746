@@ -35,7 +35,14 @@ library(randomForest) # runs random forest algorithm
 library(missRanger) # imputes data through with random forest method
 library(factoextra) # visualizes clusters
 library(pdp)
+library(vembedr)
 ```
+
+
+```{r, echo=FALSE}
+embed_url("https://www.youtube.com/watch?v=ZFtoi7PWjVw")
+```
+
 
 
 

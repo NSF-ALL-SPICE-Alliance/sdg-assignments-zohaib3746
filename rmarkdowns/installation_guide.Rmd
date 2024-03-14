@@ -42,9 +42,10 @@ Follow this video created by Kristen Sosulski for the New York University's Ster
 
 
 
-<video width="320" height="240" controls>
-  <source src="`r here::here('videos/Installing_R_and_RStudio.mp4')`" type="video/mp4">
-</video>
+```{r, echo=FALSE}
+vembedr::embed_url("https://www.youtube.com/watch?v=3f8TMPOZTLE")
+```
+
 
 
 

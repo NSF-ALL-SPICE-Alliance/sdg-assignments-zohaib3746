@@ -32,6 +32,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(here)
 library(janitor)
+library(vembedr)
 ```
 
 #### Reading in Data
