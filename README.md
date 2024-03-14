@@ -1,3 +1,6 @@
+## Welcome to the SDG Analytics in R!  🌊 🌱 🌎
+
+
 ### Office Hours 
 
 We strongly encourage you to attend office hours for any reason at all 😎
