@@ -35,6 +35,14 @@ library(janitor)
 library(vembedr)
 ```
 
+
+```{r, echo=FALSE}
+embed_url("https://www.youtube.com/watch?v=Dtr4OThmnBU")
+```
+
+
+
+
 #### Reading in Data
 
 Next, let's read in our data and assign it to the variable `sdr_data`.
