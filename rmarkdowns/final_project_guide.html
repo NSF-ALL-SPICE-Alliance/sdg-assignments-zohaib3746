@@ -257,7 +257,24 @@ div.tocify {
 <li>A minimum of 4 Data Visualizations generated from <em>either</em> the SDR-2023-Data.csv or SIDS-SDR-2023-data.csv</li>
 <li>Context
 <ul>
-<li>Minimum of 3 sentences describing each visualization</li>
+<li>Minimum of 8 sentences describing and interpreting each visualization
+<ul>
+<li>Questions to consider
+<ul>
+<li>What is the variable(s) shown? Why did you choos the variable(s)
+<ul>
+<li><strong>Be sure</strong> to describe the variables
+<ul>
+<li>For example:
+<ul>
+<li>Explain the variable normalized_score_sdg7_elecac is the percentage of the population with access to electricity</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Why did you choose to visualize the data in this way? (map vs bar chart vs scatter plot etc)</li>
+<li>What does the visualization show us?</li>
+</ul></li>
+</ul></li>
 </ul></li>
 <li>A narrative
 <ul>
@@ -266,7 +283,7 @@ div.tocify {
 </ul></li>
 <li>The code must be <strong>reproducible</strong>
 <ul>
-<li>You need to be able to clear your environment (broom icon) and then hit the knit button to produce a knitted Rmd (similar to those on the course website). If there are any errors in your code, the knit button will prompt an error message instead of producing a document</li>
+<li>You need to be able to Restart R, clear your environment (broom icon), and then hit the knit button to produce a knitted Rmd (similar to those on the course website). If there are any errors in your code, the knit button will prompt an error message instead of producing a document</li>
 </ul></li>
 </ul></li>
 <li>Project Suggestions
@@ -325,8 +342,13 @@ div.tocify {
 <div id="coding-guidelines" class="section level3">
 <h3>Coding Guidelines</h3>
 <p>Awesome! So let’s think about the format of your R Markdown</p>
-<p>First, we will want all the packages we use to be loaded in with <code>library()</code> in the very first code chunk</p>
-<p>Next, we’ll want to read in the csv we’re using (<em>either</em> the SDR-2023-Data.csv or SIDS-SDR-2023-data.csv)</p>
+<p>First, you need to create a New R Markdown</p>
+<ul>
+<li>Name the R Mardown you project title</li>
+<li>Save your R Markdown file with the save icon (no_spaces_in_the_name)</li>
+</ul>
+<p>Then you will want all the packages we use to be loaded in with <code>library()</code> in the very first code chunk</p>
+<p>Next, you’ll want to read in the csv we’re using (<em>either</em> the SDR-2023-Data.csv or SIDS-SDR-2023-data.csv)</p>
 <ul>
 <li>To do this will assign the dataframe a name with <code>&lt;-</code> and use the <code>read_csv()</code> and <code>here()</code> functions</li>
 </ul>
@@ -334,7 +356,10 @@ div.tocify {
 <p>From here, you’re off to the races!</p>
 <ul>
 <li>Make maps</li>
-<li>Do some stats with scatter plots, linear regression, and correlation coefficients</li>
+<li>Do some stats with scatter plots, linear regression, and correlation coefficients
+<ul>
+<li>Filter the data for a specific region and make a correlation matrix</li>
+</ul></li>
 <li>Make bar plots and histograms</li>
 <li>Ask questions about which countries cluster together
 <ul>
