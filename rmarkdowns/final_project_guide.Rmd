@@ -16,14 +16,14 @@ You have made it to the end of the course, and now it is time for your final pro
 
 ### General Guidelines
 
-The final project will be a screen recorded video of you going through a *knitted Rmd* that **tells a story** with data visualizations 
+The final project will be a screen recorded video (use zoom) of you going through a *knitted Rmd* that **tells a story** with data visualizations 
 
 - Requirements
   - A minimum of 4 Data Visualizations generated from *either* the SDR-2023-Data.csv or SIDS-SDR-2023-data.csv
   - Context 
     - Minimum of 8 sentences describing and interpreting each visualization
       - Questions to consider
-        - What is the variable(s) shown? Why did you choos the variable(s)
+        - What is the variable(s) shown? Why did you choose the variable(s)
           - **Be sure** to describe the variables 
             - For example:
               - Explain the variable normalized_score_sdg7_elecac is the percentage of the population with access to electricity

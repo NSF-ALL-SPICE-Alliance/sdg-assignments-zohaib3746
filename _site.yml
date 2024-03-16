@@ -6,6 +6,8 @@ navbar:
       href: index.html
     - text: "Logistics"
       href: README.html
+    - text: "Course Intro"
+      href: rmarkdowns/course_introduction.html
     - text: "Installation Guide"
       href: rmarkdowns/installation_guide.html
     - text: "Intro to R"
