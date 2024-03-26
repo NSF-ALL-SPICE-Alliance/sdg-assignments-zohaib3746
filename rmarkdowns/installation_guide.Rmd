@@ -188,6 +188,11 @@ knitr::include_graphics(here::here("images/git_sitrep.png"))
 
 ### How to accept and submit assignments
 
+```{r}
+vembedr::embed_url("https://www.youtube.com/watch?v=O9xVCM670cE")
+```
+
+
 1. [Accept the Assignment Here](https://classroom.github.com/a/uR-fvgNZ)
 
 2. Copy your specific repository link (seen in video)
