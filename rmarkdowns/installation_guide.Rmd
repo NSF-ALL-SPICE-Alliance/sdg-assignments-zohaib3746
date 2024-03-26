@@ -188,7 +188,7 @@ knitr::include_graphics(here::here("images/git_sitrep.png"))
 
 ### How to accept and submit assignments
 
-```{r}
+```{r, echo=FALSE}
 vembedr::embed_url("https://www.youtube.com/watch?v=O9xVCM670cE")
 ```
 
