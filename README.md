@@ -28,5 +28,4 @@ We strongly encourage you to attend office hours for any reason at all 😎
 | 3    | [Advanced Viz](https://nsf-all-spice-alliance.github.io/SDG-Analytics-in-R/rmarkdowns/advanced_viz.html)  | Midnight on April 14th |
 | 3    | [Stats](https://nsf-all-spice-alliance.github.io/SDG-Analytics-in-R/rmarkdowns/stats.html)  | Midnight on April 14th |
 | 4    | [Machine Learning](https://nsf-all-spice-alliance.github.io/SDG-Analytics-in-R/rmarkdowns/basic_viz.html)  | Midnight on April 21st |
-| 4    | Data Storytelling | Midnight on April 21st |
 | 5 & 6 | [Final Project](https://nsf-all-spice-alliance.github.io/SDG-Analytics-in-R/rmarkdowns/final_project_guide.html)  | Midnight on May 5th |
