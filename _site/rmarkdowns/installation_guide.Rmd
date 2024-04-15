@@ -186,7 +186,27 @@ Does it return information about your connected GitHub account that looks someth
 knitr::include_graphics(here::here("images/git_sitrep.png"))
 ```
 
+### How to accept and submit assignments
 
+```{r, echo=FALSE}
+vembedr::embed_url("https://www.youtube.com/watch?v=O9xVCM670cE")
+```
+
+
+1. [Accept the Assignment Here](https://classroom.github.com/a/uR-fvgNZ)
+
+2. Copy your specific repository link (seen in video)
+
+3. Create a new R Project
+- Select Git
+- Paste repository link
+- Name repository yourusername-sdg-assignments
+
+4. For each module
+- Complete challenge
+- Save file
+- Commit file
+- Push file
 
 ### Assistance 
 
@@ -195,4 +215,3 @@ We're here to help you! If any of this doesn't go smoothly join us for office ho
 - Performing all of the steps here is **essential** for the rest of the course so please reach out to us to get you up and running ASAP
 
 
-### How to accept and submit assignments
