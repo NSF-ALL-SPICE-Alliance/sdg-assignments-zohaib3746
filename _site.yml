@@ -1,4 +1,5 @@
 name: "my-website"
+output_dir: "_site"
 navbar:
   title: "SDG Analytics in R"
   left:
@@ -24,5 +25,9 @@ navbar:
       href: rmarkdowns/final_project_guide.html
     - text: "Troubleshooting Guide"
       href: rmarkdowns/troubleshooting.html
+output:
+  html_document:
+    theme: default
+
 
     
